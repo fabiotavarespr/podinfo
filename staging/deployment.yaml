@@ -68,11 +68,11 @@ spec:
             timeoutSeconds: 5
           resources:
             limits:
-              cpu: 2000m
-              memory: 512Mi
+              cpu: 1000m
+              memory: 256Mi
             requests:
-              cpu: 100m
-              memory: 64Mi
+              cpu: 200m
+              memory: 128Mi
           volumeMounts:
             - name: data
               mountPath: /data
